@@ -8,7 +8,7 @@ namespace Lesson2
         public static void Main()
         {
             byte a = 0b00001111;
-            byte b = (byte)(a<<4);
+            byte b = (byte)(a<<7);
 
             Console.WriteLine(Convert.ToString(b,16));
             Console.WriteLine(b);
